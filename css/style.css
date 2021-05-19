@@ -1,0 +1,58 @@
+/* цвет основного текста : #212121;
+ */
+
+ /* цвет вторичного текста : #757575;
+ */
+
+ /* белый #FFFFFF */
+
+ /* акцет #2196F3 */
+
+ /*основной цвет фона #FFFFFF  */
+
+/* вторичный цвет фона #F5F4FA */
+
+
+ /*  Общее для двух страниц */
+
+.page {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+.web {
+    color: #2196F3;
+}
+.studio {
+    color: #212121;
+}
+
+/* Общий хеддер */
+
+/* Site nav */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: #2196F3 ;
+} 
+.info-nav .link{
+    color:#212121;
+}
+.info-nav .link:hover, 
+.info-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Сраница студия */
+
+/* Наши преимущества */
+.section-title {
+    color: #212121;
+}
+.features-title {
+    color: #212121;
+}
+.features-dicription {
+    color: #757575;
+}
