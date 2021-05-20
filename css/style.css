@@ -33,7 +33,8 @@
 .site-nav .link {
     color: #212121;
 }
-.site-nav .link:hover, .site-nav .link:focus {
+.site-nav .link:hover, 
+.site-nav .link:focus {
     color: #2196F3 ;
 } 
 .info-nav .link{
@@ -44,15 +45,76 @@
     color: #2196F3;
 }
 
+/* Общий футтер */
+.footer {
+    background-color: #2F303A;
+}
+
+.web {
+    color: #2196F3;
+}
+.studio-footer {
+    color: #FFFFFF;
+}
+.adress {
+    color: #FFFFFF;
+}
+.mail-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+.mail-tel:hover, :focus {
+    color: #2196F3;
+}
+
 /* Сраница студия */
 
 /* Наши преимущества */
 .section-title {
     color: #212121;
 }
+.section-title-hidden {
+    visibility: hidden;
+}
 .features-title {
     color: #212121;
 }
-.features-dicription {
+.features-discription {
     color: #757575;
 }
+
+/* Чем мы занимаемся */
+
+/* Наша команда */
+.section-team {
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.member-name-title {
+    color: #212121;
+}
+.job-discription {
+    color: #757575;
+}
+
+/* Портфолио */
+
+/* Cписок работ */
+/* Button */
+.button {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.button :hover, :focus {
+    color: #2196F3;
+} 
+.example-list-title {
+    visibility: hidden;
+}
+.company-name-title {
+    color: #212121;  
+}
+.product-discription {
+    color: #757575;
+}
+
+   
