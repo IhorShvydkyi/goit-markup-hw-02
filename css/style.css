@@ -101,17 +101,20 @@ ul {
 }
 .adress {
     color: var(--primary-white-color);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
 .mail-tel {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
 }
 .mail-tel:hover, :focus {
     color: var(--accent);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -197,7 +200,7 @@ ul {
 
 
 /* Button */
-.button {
+.list-title-button {
     cursor: pointer;
     color: var(--primary-text-color);
     background-color: #F5F4FA;
@@ -205,8 +208,9 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    text-align: center;
 }
-.button :hover, :focus {
+.list-title-button :hover, :focus {
     color: var(--primary-white-color);
     background-color: var(--accent);
 } 
@@ -214,6 +218,9 @@ ul {
 /* Cписок работ */
 .example-list-title {
     visibility: hidden;
+}
+.example-list {
+    text-decoration: none;
 }
 .company-name-title {
     color: var(--primary-text-color);  
