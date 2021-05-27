@@ -23,6 +23,15 @@
 
  /*  Общее для двух страниц */
 
+html {
+    box-sizing: border-box;
+}
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
@@ -49,11 +58,7 @@ ul {
     line-height: 1.2;
     text-decoration: none;
 }
-
-/* Общий хеддер */
-
-/* Site nav */
-.site-nav .link {
+.link {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -61,10 +66,16 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.site-nav .link:hover, 
-.site-nav .link:focus {
-    color: var(--accent) ;
-} 
+
+/* Общий хеддер */
+
+/* Site nav */
+
+.site-nav :hover,
+.site-nav :focus {
+    color: var(--accent);
+}
+
 .info-nav .link{
     color: var(--primary-text-color);
     font-weight: 500;
